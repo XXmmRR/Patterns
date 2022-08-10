@@ -27,5 +27,5 @@ class Point:
 
 if __name__ == '__main__':
     p = Point(2, 3)
-    p2 = Point.new_cartesian_point(1, 2)
+    p2 = Point.PointFactory.new_cartesian_point(1, 2)
     print(p2)
